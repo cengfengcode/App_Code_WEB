@@ -26,7 +26,7 @@ namespace CengFeng_API.Controllers
  
         public string GetName(string name)
         {
-            return String.Format("姓名：{0}", name);
+            return String.Format("这个孩子是：{0}", name);
         }
         public string GetName(string name,int age)
         {
